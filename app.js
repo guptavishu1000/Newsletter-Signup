@@ -64,7 +64,7 @@ app.post("/failure",function(req,res){
     res.redirect("/")
 })
 
-app.listen(3003,function(){
+app.listen(process.env.PORT,function(){
     console.log("port at 3000");
     console.log(__dirname);
 })
