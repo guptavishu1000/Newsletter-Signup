@@ -61,12 +61,12 @@ app.post("/",function(req,res){
 });
 
 app.post("/failure",function(req,res){
-    res.redirect("/")
+    res.redirect("/");
 })
 
 app.listen(process.env.PORT,function(){
     console.log("port at 3000");
-    console.log(__dirname);
+    // console.log(__dirname);
 })
 
 
