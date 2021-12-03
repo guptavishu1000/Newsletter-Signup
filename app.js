@@ -14,7 +14,7 @@ Directly write this line with making extra folder for public file like css sheet
 */
 
 app.get("/",function(req,res){
-    res.sendFile(__dirname + "/signup.html");
+    res.sendFile(__dirname + "/index.html");
 });
 app.post("/",function(req,res){
     const firstname=req.body.fname;
